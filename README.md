@@ -12,7 +12,7 @@ Para o desenvolvimento do serviço foram utilizadas basicamente 3 ferramentas:
 
 1. NodeJS
 
-Iniciei um projeto NodeJS com o comando `npm init -y`
+Inicie um projeto NodeJS com o comando `npm init -y`
 
 2. Puppeteer
 
@@ -21,6 +21,7 @@ Para instalar: `npm i puppeteer`
 [Mais detalhes nesse link](https://www.npmjs.com/package/puppeteer)
 
 3. MySQL
+
 Conforme citado anteriormente foi utilizado o banco de dados `MySQL`.
 
 - Para a criação do banco de dados e das tabelas, basta rodar o script `script.sql` disponível na raiz do projeto.
@@ -30,12 +31,12 @@ Para instalar: `npm i mysql`
 [Mais detalhes nesse link](https://www.npmjs.com/package/mysql)
 
 * Outras dependências utilizadas nesse projeto
-- dotenv (npm i dotenv)
-- nodemon (npm i nodemon -D)
+- dotenv: `npm i dotenv`
+- nodemon `npm i nodemon -D`
 
 ---
 
-### Observações importantes:
+# Observações importantes:
 
 - Será necessário configurar as variáveis globais do MySQL.** Usar esse [Conteúdo de variáveis de ambiente com NodeJS](https://blog.rocketseat.com.br/variaveis-ambiente-nodejs/) como referência.
 
